@@ -1,0 +1,62 @@
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+    padding: 30px 30px 30px 30px;
+    background-color: chocolate;
+}
+.maindiv a{
+    margin-right: 34px;
+}
+nav li{
+    list-style-type: none;
+}
+.text{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.create1{
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 10%;
+    background-color: aqua;
+}
+.des{
+    display: flex;
+
+    justify-content: center;
+}
+.des button{
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 10%;
+    background-color: aqua;
+}
+.des img{
+    height: 800px;
+    width: 800px;
+    align-items: center;
+}
+.Organize{
+    text-align: center;
+    
+}
+.para1{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 120px;
+    text-align: center;
+    width: 75%;
+}
+.para2{
+    font-size: 1.4rem;
+    width: 30%;
+    text-align: start;
+    margin-left: 450px;
+}
+.Create{
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}

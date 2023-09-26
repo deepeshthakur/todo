@@ -1,0 +1,28 @@
+
+    <%- include('./partials/header.ejs')%>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 mt-5">
+      <h2 class="alert alert-success text-center">Add A New Task</h2>
+      <form action="" method="post">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name Of Task</label>
+          <input type="text" name="name" class="form-control" id="name" />
+        </div>
+        <div class="mb-3">
+          <label for="age" class="form-label">Task</label>
+          <input type="text" class="form-control" id="age" name="Task" />
+        </div>
+        <!-- <div class="mb-3">
+          <label for="age" class="form-label">Day Of Completetion</label>
+          <input type="text" class="form-control" id="fee" name="Day" />
+        </div> -->
+        <button class="btn btn-primary">Submit</button>
+       
+      </form>
+    </div>
+   
+  </div>
+</div>
+<%- include('./partials/footer.ejs')%>
